@@ -1,0 +1,32 @@
+<input type="text" placeholder="Where are you going?">
+<form action="" method="post>
+    <input type="text" placeholder></form>
+
+
+
+
+    <div class="trip_box">  
+        <div class="search_box">
+            <div class="card">
+                <h4>Location <i class="bi bi-caret-down"></i></h4>
+                <input type="text" placeholder="Enter your desitination"/>
+            </div>
+            <div class="card"></div>
+                 <h4>Date <i class="bi bi-caret-down"></i></h4>
+                 <input type="date" >
+                     <div class="card"></div>
+                 <h4>Pepole <i class="bi bi-caret-down"></i></h4>
+                 <input type ="number" placeholder="Number of people"> 
+            
+            </div>
+            
+            
+         </div>
+    </div>
+</div>
+
+
+Array.from(document.getElementsByTagName('input')).forEach(e,i) => {
+    e.addEventListener('keyup'), (el)=>{
+        if (e.value.length >= 0){
+            document.getElementsByClassName('bi')[i]

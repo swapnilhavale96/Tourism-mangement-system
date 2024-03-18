@@ -160,3 +160,11 @@ header .trip_box .search_box input[type="button"]:hover{
     color: chocolate;
     background: #000;
 }
+header.trip_box.traval_box{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    top: 40px;
+    border: 1px solid #000;
+}

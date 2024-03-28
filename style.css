@@ -24,12 +24,13 @@ header nav ul{
 header nav ul li{
     padding: 3px 15px;
 }
-header nav ul li:nth-last-child(1){
-    background: #000;
+
+header nav ul button:nth-last-child(1){
+    background: white;
     border-radius: 20px;
     padding: 5px 20px;
 }
-header nav ul li:nth-last-child(1) a{
+header nav ul button:nth-last-child(1) a{
     color: #fff;
 }
 header nav ul li a{
@@ -40,7 +41,7 @@ header nav ul li a{
     transition: .3s linear;
 }
 header nav ul li a:hover{
-    color: gray;
+    color: rgb(128, 128, 128);
 }
 
 header nav .bi-three-dots {
